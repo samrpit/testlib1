@@ -1,0 +1,30 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: Switch1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Switch1
+    Id: g=9ffc038ed857a80a7fc6b795278a9812
+    Supertype: Switch
+    ReferenceType: HasComponent
+    Children:
+    - Name: Checked
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 25.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 302.0
